@@ -8,6 +8,12 @@ this in the future
 
 however I wanted to save this somewhere in the meantime
 
-One main thing to note is that I think the implementation I used here was based on a version of the docking protocol
-that first prepares a set of CSVs as inputs to the docking? And I'm not sure how to reproduce that simply.
+an additional change that was made in this repo was to add `generate_docking_input_csv.py` which generates a csv file
+which can be read by run_self_docking_oe to only redock the ligands to the protein.
+I'd like to add that back again to the main repo, but not until the schema changes have been made.
+
+Currently works with these versions of the repo:
+'0.0.0.post697+g68a3e1f'
+
+
 
